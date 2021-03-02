@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <!-- bootstrap style -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <!-- template style -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/over-style.css">
@@ -114,22 +115,22 @@
 
                     <ul class="navbar__menu">
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link active" href="#">الرئيسية</a>
+                            <a class="navbar__menu-link active" href="">الرئيسية</a>
                         </li>
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link" href="#">من نحن</a>
+                            <a class="navbar__menu-link" href="#about">من نحن</a>
                         </li>
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link" href="#">ما يميزنا</a>
+                            <a class="navbar__menu-link" href="#why-us">ما يميزنا</a>
                         </li>
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link" href="#">خدماتنا</a>
+                            <a class="navbar__menu-link" href="#services">خدماتنا</a>
                         </li>
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link" href="#">آراء العملاء</a>
+                            <a class="navbar__menu-link" href="#clients">آراء العملاء</a>
                         </li>
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link" href="#">تواصل معنا</a>
+                            <a class="navbar__menu-link" href="#contact">تواصل معنا</a>
                         </li>
                     </ul>
                     <div class="navbar__right">
@@ -169,7 +170,8 @@
                             <h1 class="slide-item__title">دكتور <br> <span>إيمان سعيد الكشك</span>
                             </h1>
                             <h4 class="slide-item__subtitle">استشاري أول أمراض القلب والأوعية الدموية</h4>
-                            <a href="departments-details_right.html" class="btn btn_blue">اعرف المزيد</a>
+                            <h4 class="slide-item__subtitle">أستاذ أمراض القلب</h4>
+                            <a href="#about" class="btn btn_blue">اعرف المزيد</a>
                         </div>
                     </div>
                 </div>
@@ -185,7 +187,8 @@
                             <h1 class="slide-item__title">دكتور <br> <span>إيمان سعيد الكشك</span>
                             </h1>
                             <h4 class="slide-item__subtitle">استشاري أول أمراض القلب والأوعية الدموية</h4>
-                            <a href="departments-details_right.html" class="btn btn_blue">اعرف المزيد</a>
+                            <h4 class="slide-item__subtitle">أستاذ أمراض القلب</h4>
+                            <a href="#about" class="btn btn_blue">اعرف المزيد</a>
                         </div>
                     </div>
                 </div>
@@ -208,7 +211,7 @@
             <div class="container">
                 <div class="about__our-misson wow fadeInLeft" data-wow-duration="1s">
                     <div class="about__our-misson-img">
-                        <img src="images/jpg/about-img.jpg">
+                        <img src="images/jpg/about-img2.jpg">
                     </div>
 
                 </div>
@@ -221,7 +224,7 @@
                         <li><i class="fa fa-check"></i> زميل الجمعية المصرية لأمراض القلب</li>
                         <li><i class="fa fa-check"></i> زميل الجمعية الأوروبية لأمراض القلب</li>
                     </ul>
-                    <a href="departments-details_right.html" class="btn btn_blue">تصفح الخدمات</a>
+                    <a href="#services" class="btn btn_blue">تصفح الخدمات</a>
                     <!-- <div class="about__text-signature">
                         <img src="images/png/signature.png" alt="signature">
                     </div> -->
@@ -246,7 +249,12 @@
                 <h2 class="section-title"> ما <span>يميزنا</span></h2>
                 <div class="difference">
                     <div class="difference__item wow fadeInLeft" data-wow-duration="1s">
-                        <p class="difference__item-number">01</p>
+                        <p class="difference__item-number">
+                            <a data-fancybox="" href="https://youtu.be/lM02vNMRRB0">
+                                <span class="btn-video"><i class="fa fa-play btn-play"></i></span>
+                            </a>
+                        </p>
+
                         <div class="difference__item-content">
                             <h2 class="difference__item-title">مسيرة طويلة من الخبرة الأكاديمية والعملية</h2>
                             <p class="difference__item-text">خبرة لأكثر من 17 سنة في علاج أمراض القلب والأوعية الدموية
@@ -254,7 +262,11 @@
                         </div>
                     </div>
                     <div class="difference__item wow fadeInLeft" data-wow-duration="1s">
-                        <p class="difference__item-number">02</p>
+                        <p class="difference__item-number">
+                            <a data-fancybox="" href="https://youtu.be/lM02vNMRRB0">
+                                <span class="btn-video"><i class="fa fa-play btn-play"></i></span>
+                            </a>
+                        </p>
                         <div class="difference__item-content">
                             <h2 class="difference__item-title">أحدث الأجهزة والتقنيات الحديثة</h2>
                             <p class="difference__item-text">نحرص على استخدام أحدث وأعلى جودة للمستلزمات والأجهزة الطبية
@@ -343,8 +355,8 @@
                                     transform="translate(-2400 -1521)" />
                             </svg>
                         </div>
-                        <h2 class="title">الشرايين التاجية</h2>
-                        <h4 class="subtitle">الكشف المبكر الشرايين التاجية لمرضى السكر</h4>
+                        <h2 class="title">الكشف المبكر عن شرايين القلب</h2>
+                        <h4 class="subtitle">الكشف المبكر عن الشرايين التاجية لمرضى السكر</h4>
                     </div>
                     <div class="card-item">
                         <div class="icon">
@@ -396,7 +408,7 @@
         <!-- End of .other-servises -->
 
         <!-- Start of .testimonials -->
-        <section class="testimonials">
+        <section class="testimonials" id="clients">
             <div class="testimonials__img">
                 <img src="images/png/testimonials.png">
             </div>
@@ -429,7 +441,7 @@
         </section>
         <!-- End of .testimonials -->
         <!-- Start of .emergency-call -->
-        <section class="emergency-call" dir="rtl">
+        <section class="emergency-call" id="contact" dir="rtl">
             <div class="container">
                 <h2>كلمنا الآن:</h2>
 

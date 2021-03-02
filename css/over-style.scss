@@ -103,6 +103,12 @@ header {
     text-align: right;
 }
 
+.header-bottom__banner .owl-dots {
+    position: relative;
+    top: -260px;
+}
+
+
 /** slider **/
 
 /** about **/
@@ -172,6 +178,10 @@ header {
         .difference__item-number {
             margin-left: 30px;
             margin-right: 0;
+
+            .btn-video>.btn-play {
+                margin: 0;
+            }
         }
 
         .difference__item {

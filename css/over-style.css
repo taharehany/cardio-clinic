@@ -88,6 +88,11 @@ header .navbar__right ul li a:hover i {
   text-align: right;
 }
 
+.header-bottom__banner .owl-dots {
+  position: relative;
+  top: -260px;
+}
+
 /** slider **/
 /** about **/
 .about {
@@ -153,6 +158,10 @@ header .navbar__right ul li a:hover i {
 .why-choose-us > .container .difference__item-number {
   margin-left: 30px;
   margin-right: 0;
+}
+
+.why-choose-us > .container .difference__item-number .btn-video > .btn-play {
+  margin: 0;
 }
 
 .why-choose-us > .container .difference__item {
