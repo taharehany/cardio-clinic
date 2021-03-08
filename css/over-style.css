@@ -73,6 +73,10 @@ header .navbar__right ul li a:hover i {
   border-color: #0d6985;
 }
 
+.header-middle .navbar-logo {
+  max-width: 150px;
+}
+
 /** header **/
 /** slider **/
 .header-bottom__banner .slide-item {
@@ -192,7 +196,7 @@ header .navbar__right ul li a:hover i {
 
 .why-choose-us .why-choose-us__bg > img {
   position: absolute;
-  right: 22%;
+  right: 30%;
   left: auto;
 }
 
