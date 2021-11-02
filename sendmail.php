@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دكتورة إيمان</title>
+    <title>دكتورة إيمان | استشاري أول أمراض القلب والأوعية الدموية
+    </title>
     <link rel="icon" href="images/icon.png">
     <!-- wow animation style -->
     <link rel="stylesheet" href="css/animate.css">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <!-- bootstrap style -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <!-- template style -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/over-style.css">
@@ -25,7 +27,7 @@
 
 <body>
 
-    <!-- Start of .preloader 
+    <!-- Start of .preloader -->
     <div class="preloader">
         <div class="loader"></div>
     </div>
@@ -59,7 +61,7 @@
                         </svg>
                         <div class="header-top__call-text">
                             <p>الهاتف:</p>
-                            <a href="tel:01120449955">01120449955</a>
+                            <a href="tel:01030787875">01030787875</a>
                         </div>
                     </div>
                     <!-- End of .header-top__call-item -->
@@ -73,7 +75,7 @@
                         </svg>
                         <div class="header-top__call-text">
                             <p>العنوان</p>
-                            <a href="">التجمع الأول - بورتو كايرو ميديكال</a>
+                            <a>التجمع الأول - بورتو كايرو ميديكال</a>
                         </div>
                     </div>
                     <!-- End of .header-top__call-item -->
@@ -90,17 +92,7 @@
                 <!-- hidden navbar for mobiles -->
                 <div class="navbar-logo">
                     <a href="index.html">
-                        <svg id="logo-white.svg" width="116.09" height="39" viewBox="0 0 116.09 39">
-                            <path class="cls-1"
-                                d="M1045.89,144.338l5.7-9.565,5.87,8.679,5.87-8.856,5.87,9.742,7.83,0.176s-3.69,9.734-19.57,19.485c0,0-9.61-5.766-14.95-12.575h4.81a69.279,69.279,0,0,0,10.14,8.146s8.41-5.393,12.81-11.336h-3.38l-3.74-6.376-5.69,8.5-5.7-8.5-3.73,6.376h-8.01s-9.48-12.717,2.67-21.43c7.78-4.687,14.59,1.239,14.59,1.239s6.41-5.146,13.88-1.948,7.96,12.345,6.94,15.231h-3.74s2.4-9.573-5.87-12.22a10.836,10.836,0,0,0-10.85,3.365s-4.05-4.127-9.26-3.72-11.16,5.969-6.58,15.587h4.09Z"
-                                transform="translate(-1036.5 -125)" />
-                            <path id="IBNSINO" class="cls-3"
-                                d="M1087.12,153.436h3.08V133.848h-3.08v19.588Zm9.96-19.588h-4.64v19.588h4.84c3.08,0,4.67-1.623,4.67-4.645V147.2c0-2.071-.64-3.526-2.29-4.17V142.97c1.37-.643,1.99-1.9,1.99-3.917v-0.7C1101.65,135.331,1100.27,133.848,1097.08,133.848Zm-0.19,10.773c1.4,0,1.98.56,1.98,2.379v1.707c0,1.455-.55,1.931-1.59,1.931h-1.76v-6.017h1.37Zm0.11-7.975c1.09,0,1.57.616,1.57,2.015v1.091c0,1.567-.7,2.071-1.85,2.071h-1.2v-5.177H1097Zm13.38,16.79h3.16V133.848h-2.74v11.725h-0.05l-3.11-11.725h-3.86v19.588h2.77V139.249h0.05Z"
-                                transform="translate(-1036.5 -125)" />
-                            <path id="IBNSINO_copy" data-name="IBNSINO copy" class="cls-1"
-                                d="M1115.37,138.549c0,2.239.81,3.862,3.39,6.128,2.01,1.763,2.63,2.827,2.63,4.254,0,1.4-.62,1.9-1.6,1.9s-1.59-.5-1.59-1.9v-1.4h-2.91v1.2c0,3.134,1.56,4.925,4.59,4.925s4.58-1.791,4.58-4.925c0-2.239-.81-3.862-3.38-6.128-2.02-1.763-2.63-2.827-2.63-4.254,0-1.4.56-1.93,1.54-1.93s1.54,0.531,1.54,1.93v0.812h2.91v-0.616c0-3.134-1.54-4.925-4.54-4.925S1115.37,135.415,1115.37,138.549Zm10.86,14.887h3.08V133.848h-3.08v19.588Zm11.9,0h3.16V133.848h-2.74v11.725h-0.06l-3.1-11.725h-3.86v19.588h2.77V139.249h0.05Zm8.21-15.083c0-1.4.61-1.93,1.59-1.93s1.6,0.531,1.6,1.93v10.578c0,1.4-.62,1.93-1.6,1.93s-1.59-.531-1.59-1.93V138.353Zm-3.08,10.382c0,3.134,1.65,4.925,4.67,4.925s4.67-1.791,4.67-4.925V138.549c0-3.134-1.65-4.925-4.67-4.925s-4.67,1.791-4.67,4.925v10.186Z"
-                                transform="translate(-1036.5 -125)" />
-                        </svg>
+                        <img src="images/logo.png" class="img-fluid" alt="">
                     </a>
                 </div>
 
@@ -111,28 +103,27 @@
 
                 <!-- navbar__menu-link clicked jquery -> event.preventDefoult() -->
                 <div class="navbar">
-
                     <ul class="navbar__menu">
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link active" href="#">الرئيسية</a>
+                            <a class="navbar__menu-link active" href="https://dr-emanelkeshk.com/">الرئيسية</a>
                         </li>
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link" href="#">من نحن</a>
+                            <a class="navbar__menu-link" href="https://dr-emanelkeshk.com/#about">من نحن</a>
                         </li>
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link" href="#">ما يميزنا</a>
+                            <a class="navbar__menu-link" href="https://dr-emanelkeshk.com/#why-us">ما يميزنا</a>
                         </li>
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link" href="#">خدماتنا</a>
+                            <a class="navbar__menu-link" href="https://dr-emanelkeshk.com/#services">خدماتنا</a>
                         </li>
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link" href="#">آراء العملاء</a>
+                            <a class="navbar__menu-link" href="https://dr-emanelkeshk.com/#clients">آراء العملاء</a>
                         </li>
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link" href="#">تواصل معنا</a>
+                            <a class="navbar__menu-link" href="https://dr-emanelkeshk.com/#contact">تواصل معنا</a>
                         </li>
                     </ul>
-                    <div class="navbar__right">
+                    <div class="navbar__right" dir="rtl">
                         <ul>
                             <li>
                                 <a href="https://www.facebook.com/Dr.emanelkeshk" target="_blank"><i
@@ -144,6 +135,10 @@
                             </li>
                             <li>
                                 <a href="https://wa.me/+201022080606" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UC2uI-XVY-K6NUYKCgU6ik5g" target="_blank"><i
+                                        class="fa fa-youtube"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -164,14 +159,22 @@
         }
 
         h3 {
-            direction: rtl;
             line-height: 2;
+            text-align: center;
+            direction: rtl
         }
 
-        footer {
+        footer.footer {
             position: absolute;
+            height: auto;
             width: 100%;
             bottom: 0;
+        }
+
+        .sub-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
         }
         </style>
 
@@ -179,22 +182,18 @@
         <main id="main" style="margin-top: 150px;">
             <section id="about">
                 <div class="container">
-                    <header class="section-header">
+                    <div class="sub-container">
+
                         <h3>
                             <?php
-                              $email= "ryhanytaha@gmail.com";
+                              $email= "drimanelkeshk@gmail.com";
                               if (!empty($_POST)){
-                                  if(empty($_POST['name']) or empty($_POST['tel']) or empty($_POST['email']) or empty($_POST['message'])){
+                                  if(empty($_POST['name']) or empty($_POST['tel']) or empty($_POST['message'])){
                                       echo("لم تقم بتعبئة جميع الخانات <br>");
-                                  }
-                                  $regex = '/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/';
-                                  if(!preg_match($regex, $_POST['email'])){
-                                      echo("بريد خاطئ");
                                   }
                                   else{
                                       $message  = "الاسم :\n{$_POST["name"]}\n";
                                       $message .= "التليفون :\n{$_POST["tel"]}\n";
-                                      $message .= "البريد الإلكتروني :\n{$_POST["email"]}\n";
                                       $message .= "الرسالة :\n{$_POST["message"]}\n";
                                       $message .= "أي بي :\n{$_SERVER['REMOTE_ADDR']}\n";
                                       $message = stripslashes($message);
@@ -205,7 +204,7 @@
                               }
                               ?>
                         </h3>
-                    </header>
+                    </div>
                 </div>
             </section><!-- #contact -->
         </main>
@@ -220,7 +219,7 @@
             <!-- Start of .footer__top -->
             <div class="footer__top text-right" dir="rtl">
                 <div class="footer__logo">
-                    <img src="images/footer-logo.png" alt="footer-logo">
+                    <img src="images/logo.png" alt="footer-logo">
                 </div>
             </div>
             <!-- End of .footer__top -->
